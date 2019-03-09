@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Patua+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container" id="menu">
+            <div class="row">
+                <div class="col menu-item" id="home">Home</div>
+                <div class="col menu-item" id="about">About</div>
+                <div class="col menu-item" id="skills">Skills</div>
+                <div class="col menu-item" id="portfolio">Portfolio</div>
+                <div class="col menu-item" id="contact">Contact</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <div id="section-1">
+        <div class="shape"></div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col" id="home-sect">
+                    <h3>Oh, hello, nice to meet you!</h3>
+                    <h1>My name is <span class="color-txt">John Doe</span>. I design things.</h1>
+                    <h3>Scroll down to view more about me.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"><i class="fas fa-angle-double-down"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="section-2">
+        <div class="shape"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6" id="about-left">
+                    <div class="row">
+                        <div class="col">
+                            <h3>About me</h3>
+                            <div class="line"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda blanditiis sunt cupiditate explicabo sapiente laboriosam! Magnam repellendus iste fugiat voluptatum accusantium enim nihil asperiores voluptate, sunt itaque. Voluptates, odio. Harum, deleniti obcaecati quae possimus assumenda distinctio nobis quam sed illum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6" id="about-right">
+                    <img src="img/profile.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS SECTION -->
+    <div id="section-3">
+        <div class="shape"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <h4>HTML</h4>
+                    <div class="progress-bar">
+                        <div class="prog-95"></div>
+                    </div>
+                    <h4>CSS</h4>
+                    <div class="progress-bar">
+                        <div class="prog-70"></div>
+                    </div>
+                    <h4>PHP</h4>
+                    <div class="progress-bar">
+                        <div class="prog-80"></div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                        <h4>Wordpress</h4>
+                        <div class="progress-bar">
+                            <div class="prog-95"></div>
+                        </div>
+                        <h4>Squarespace</h4>
+                        <div class="progress-bar">
+                            <div class="prog-70"></div>
+                        </div>
+                        <h4>Shopify</h4>
+                        <div class="progress-bar">
+                            <div class="prog-95"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- PORTFOLIO SECTION -->
+    <div id="section-4">
+        <div class="shape"></div>            
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Portfolio</h3>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div id="portfolio-img-1"></div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="portfolio-img-2"></div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="portfolio-img-3"></div>
+                </div>
+            </div>
+            <div class="row" id="row-2">
+                <div class="col-sm-4">
+                    <div id="portfolio-img-4"></div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="portfolio-img-5"></div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="portfolio-img-6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div id="section-5">
+        <div class="shape"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Contact</h3>
+                    <div class="line"></div>
+                    <form action="https://formspree.io/email@mail.com" method="POST">
+                        <div class="form-group">
+                            <input type="name" class="form-control" name="name" placeholder="What's your name?">
+                            <br>
+                            <input type="name" class="form-control" name="email" placeholder="What's your email?">
+                            <br>
+                            <textarea rows="3" class="form-control" name="message" placeholder="What is this about?"></textarea>
+                            <br>
+                        </div>
+                        <div class="form-group">
+                            <input id="contact-btn" type="submit" value="send message" class="btn btn-contact">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6 text-center" id="contact-right">
+                    <h4>Keep In Touch!</h4>
+                    <div class="row">
+                        <div class="col-sm-4 social">
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                        <div class="col-sm-4 social">
+                            <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-sm-4 social">
+                            <a href="#"> <i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/logic.js"></script>
+</body>
+</html>
